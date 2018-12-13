@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KMP-style Minesweeper by reesb</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="minesweeper.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="minesweeper.js"></script>
+</head>
+<body>
+	<h1>Minesweeper</h1>
+	<form id="dimensions">
+		Board width (between 8 and 40) = <input id="b_width" type="number" name="b_width" value="8"><br>
+		Board height (between 8 and 30) = <input id="b_height" type="number" name="b_height" value="8"><br>
+		Number of bombs (between 1 and w*h-1) = <input id="num_bombs" type="number" name="num_bombs" value="10"><br>
+		<input type="button" name="generate" class="generate button" onclick="generate_board()" value="New Random Gameboard">
+		<input type="reset" class="reset button" value="Reset Dimensions">
+	</form>
+	<br>
+	<div class="hsDiv">
+		<table id="hs" style="margin: 0 auto;"">
+		
+			<th class="hs" width="120px">Record times</th>
+				<tr class="hs">
+<!--				<th class="hs" width="50px">Time</th>
+					<th class="hs" width="100px">Username</th> -->
+					<td class="hs time">--</td>
+				</tr>
+				<tr class="="hs>
+					<td class="hs time">--</td>
+				</tr>
+				<tr class="="hs>
+					<td class="hs time">--</td>
+				</tr>
+				<tr class="="hs>
+					<td class="hs time">--</td>
+				</tr>
+				<tr class="="hs>
+					<td class="hs time">--</td>
+				</tr>
+		
+		</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+.boardbutton {
+	margin: 0px;
+/*	width:20px;
+	height:20px; */
+	border:outset;
+	border-width:3px;
+	background-color: white;
+}
+
+input:hover, input:focus {
+	background-color: orange;
+}
+
+.boardbutton:hover {
+	background-color: gold;
+}
+
+#gameboard {
+	border: outset;
+	border-width: 3px;
+	padding: 7px;
+	margin: auto;
+}
+
+tbody, tfoot, tr, td {
+    padding: 0;
+}
+
+body {
+    line-height: 1;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: wheat;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* td {
+	width: 2000px;
+} */
+
+p.tile {
+	font-size: 10px;
+	margin: 0px;
+	font-weight: bold;
+	display: inline;
+}
+
+.kmp_bomb {
+	top: 50px;
+	margin-left: -6px;
+	margin-top: -1px;
+	border: 0px;
+}
+
+th {
+	border-spacing: 10px;
+	color: black;
+}
+
+.hs, #hs { /* table, th, td (but only for the highscores table) */
+    border: 3px solid black;
+    border-width: 5px;
+    margin-left: 20px;
+    color: brown;
+}
+
+.hsDiv {
+	margin: auto;
+}
+
+#endtime {
+	border: outset;
+	margin: 0px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+h3 {
+	color: red;
+	text-align: center;
+}
+
+#dimensions {
+	color: brown;
+	text-align: center;
+}
